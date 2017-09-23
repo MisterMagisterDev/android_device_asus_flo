@@ -524,6 +524,7 @@ service qrngd /system/bin/qrngd -f
     class main
     user root
     group root
+    disabled
 
 # on property:gsm.sim.state=READY
 #    start diag_mdlog
